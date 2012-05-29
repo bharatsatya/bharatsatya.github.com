@@ -9,8 +9,8 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Jekyll Bootstrap
-tagline: Site Tagline
+title : Bharats
+tagline: My non-hosted site!
 author :
   name : Bharat Satya
   email : bharatha.satya@gmail.com
@@ -81,7 +81,7 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : jekyllbootstrap
+      short_name : bharats
     livefyre :
       site_id : 123
     intensedebate :
