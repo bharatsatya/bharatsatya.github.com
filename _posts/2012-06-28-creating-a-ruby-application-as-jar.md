@@ -2,13 +2,10 @@
 layout: post
 title: "Creating a Ruby Application as jar"
 description: ""
-<<<<<<< HEAD
 category: blogs
 tags: [ruby,jruby]
-=======
 category: blogs 
 tags: [ruby,jruby,java,packaging]
->>>>>>> aaf8993bd683720747e556fe308554e9094de8e1
 ---
 {% include JB/setup %}
 
@@ -27,14 +24,7 @@ But as i was deploying it on a server, i had no interest in exposing the source 
 original rb file intact,as i am using jruby to run.I simply compiled the .rb files to .class files using following command
 
 <code> jrubyc filename.rb   
-</code>
-<<<<<<< HEAD
-<code>
        jruby filename.class   
-=======
-<code> jruby filename.class   
->>>>>>> aaf8993bd683720747e556fe308554e9094de8e1
-
 </code>
 
 Now the source is not exposed and the whole execution works with no problem on a server.
