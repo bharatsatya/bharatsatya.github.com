@@ -2,8 +2,8 @@
 layout: post
 title: "Creating a Ruby Application as jar"
 description: ""
-category: 
-tags: [ruby,jruby,java,packaging]
+category: blogs
+tags: [ruby,jruby]
 ---
 {% include JB/setup %}
 
@@ -21,8 +21,11 @@ and the one in config file is the same.If all these are met then when you run th
 But as i was deploying it on a server, i had no interest in exposing the source code(which will happen if i keep the
 original rb file intact,as i am using jruby to run.I simply compiled the .rb files to .class files using following command
 
-<code> jrubyc filename.rb</ br>
-       jruby filename.class
+<code> jrubyc filename.rb   
+</code>
+<code>
+       jruby filename.class   
+
 </code>
 
 Now the source is not exposed and the whole execution works with no problem on a server.
