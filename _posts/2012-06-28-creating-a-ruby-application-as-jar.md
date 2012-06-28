@@ -2,8 +2,13 @@
 layout: post
 title: "Creating a Ruby Application as jar"
 description: ""
+<<<<<<< HEAD
 category: blogs
 tags: [ruby,jruby]
+=======
+category: blogs 
+tags: [ruby,jruby,java,packaging]
+>>>>>>> aaf8993bd683720747e556fe308554e9094de8e1
 ---
 {% include JB/setup %}
 
@@ -23,8 +28,12 @@ original rb file intact,as i am using jruby to run.I simply compiled the .rb fil
 
 <code> jrubyc filename.rb   
 </code>
+<<<<<<< HEAD
 <code>
        jruby filename.class   
+=======
+<code> jruby filename.class   
+>>>>>>> aaf8993bd683720747e556fe308554e9094de8e1
 
 </code>
 
